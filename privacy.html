@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Location — Gizlilik Politikası / Privacy Policy</title>
+<style>
+  :root { --bg:#FAF4E8; --card:#fff; --ink:#1A140D; --muted:#6F6149; --line:#E6DAC4; --accent:#D04F22; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6; -webkit-text-size-adjust:100%; }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 20px 80px; }
+  header { display:flex; align-items:center; gap:12px; margin-bottom:6px; }
+  .logo { width:38px; height:38px; border-radius:11px; background:var(--accent);
+    display:flex; align-items:center; justify-content:center; color:#fff; font-weight:800; font-size:19px; flex:none; }
+  h1 { font-size:24px; margin:18px 0 4px; letter-spacing:-.3px; }
+  h2 { font-size:17px; margin:30px 0 8px; }
+  .eff { color:var(--muted); font-size:13px; margin:0 0 8px; }
+  p, li { font-size:15px; color:#2c2418; }
+  a { color:var(--accent); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px 20px; margin-top:14px; }
+  .langbar { display:flex; gap:8px; margin:10px 0 4px; }
+  .langbar button { border:1px solid var(--line); background:#fff; color:var(--ink); border-radius:9px;
+    padding:6px 14px; font-size:13px; font-weight:600; cursor:pointer; }
+  .langbar button.on { background:var(--accent); color:#fff; border-color:var(--accent); }
+  .muted { color:var(--muted); font-size:13.5px; }
+  table { width:100%; border-collapse:collapse; margin-top:6px; }
+  td { border-top:1px solid var(--line); padding:9px 6px; font-size:14px; vertical-align:top; }
+  td:first-child { font-weight:600; white-space:nowrap; padding-right:14px; }
+  hr { border:none; border-top:1px solid var(--line); margin:34px 0; }
+  footer { color:var(--muted); font-size:12.5px; margin-top:30px; }
+  .en { display:none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">L</div>
+    <div><strong>Location</strong><br><span class="muted">Saha Ölçme &amp; GIS</span></div>
+  </header>
+
+  <div class="langbar">
+    <button id="btn-tr" class="on" onclick="setLang('tr')">Türkçe</button>
+    <button id="btn-en" onclick="setLang('en')">English</button>
+  </div>
+
+  <!-- ============ TÜRKÇE ============ -->
+  <section class="tr">
+    <h1>Gizlilik Politikası</h1>
+    <p class="eff">Yürürlük tarihi: 17 Haziran 2026</p>
+
+    <div class="card">
+      <p>Location ("Uygulama", "biz"), arazide ölçüm, harita ve GIS verisi yönetimi için bir mobil
+      uygulamadır. Gizliliğinize önem veriyoruz. Bu politika, hangi verileri işlediğimizi, neden işlediğimizi
+      ve verilerinizin nerede tutulduğunu açıklar. <strong>Özet: Location yerel-öncelikli çalışır — proje
+      verileriniz cihazınızda kalır, bizim sunucumuza gönderilmez.</strong></p>
+    </div>
+
+    <h2>1. Topladığımız veriler ve kullanım amacı</h2>
+    <table>
+      <tr><td>Konum (GPS)</td><td>Konumunuzu haritada göstermek, iz kaydı yapmak, aplikasyon (stake-out) ve
+        ölçüm için kullanılır. Konum verisi <strong>cihazınızda işlenir</strong>; bizim sunucumuza iletilmez.</td></tr>
+      <tr><td>Kamera / Fotoğraf</td><td>Bir ölçüm noktasına fotoğraf eklemek için (isteğe bağlı). Fotoğraflar
+        cihazınızda saklanır.</td></tr>
+      <tr><td>Proje verileri</td><td>Oluşturduğunuz nokta, çizgi, alan, iz ve içe aktardığınız dosyalar
+        yalnızca cihazınızda saklanır.</td></tr>
+      <tr><td>Satın alma bilgisi</td><td>Premium aboneliği satın alırsanız, işlem Google Play ve RevenueCat
+        üzerinden yürütülür. Yalnızca abonelik durumunu doğrulamak için takma-ad niteliğinde bir tanımlayıcı
+        kullanılır. <strong>Kart/ödeme bilgilerinizi görmeyiz ve saklamayız.</strong></td></tr>
+    </table>
+    <p class="muted">Hesap oluşturmanızı istemiyoruz; ad, e-posta veya telefon gibi kişisel kimlik bilgisi
+    toplamıyoruz. Reklam veya üçüncü taraf analiz/izleme SDK'sı kullanmıyoruz.</p>
+
+    <h2>2. Verileriniz nerede tutulur</h2>
+    <p>Location'nın kullanıcı verisi tutan bir arka uç sunucusu yoktur. Tüm proje verileriniz, ayarlarınız ve
+    fotoğraflarınız cihazınızın yerel depolamasında kalır. Uygulamayı silerseniz bu veriler de silinir
+    (önceden dışa aktarmadıysanız geri alınamaz).</p>
+
+    <h2>3. Üçüncü taraf servisler</h2>
+    <p>Uygulama çalışırken yalnızca şu durumlarda internete bağlanır:</p>
+    <ul>
+      <li><strong>Harita ve arazi (yükseklik) karoları:</strong> Haritayı ve 3B araziyi gösterebilmek için
+        karolar üçüncü taraf açık harita/karo sağlayıcılarından (ör. OpenStreetMap tabanlı kaynaklar ve açık
+        DEM karo sağlayıcıları) indirilir. Bu sırada, herhangi bir çevrimiçi harita gibi, cihazınızın IP
+        adresi ve görüntülediğiniz harita bölgesi ilgili sağlayıcıya iletilir.</li>
+      <li><strong>Google Play Billing &amp; RevenueCat:</strong> Abonelik satın alma ve doğrulama için.
+        Bkz. <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat Gizlilik</a>
+        ve <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik</a>.</li>
+    </ul>
+    <p class="muted">Bu sağlayıcılar kendi gizlilik politikalarına tabidir. Çevrimdışı harita indirme özelliği
+    de aynı karo sağlayıcılarını kullanır.</p>
+
+    <h2>4. Uygulama izinleri</h2>
+    <table>
+      <tr><td>Konum</td><td>GPS konumu, iz kaydı, ölçüm ve aplikasyon. Yalnızca uygulama açıkken kullanılır.</td></tr>
+      <tr><td>Kamera</td><td>Noktaya fotoğraf eklemek (isteğe bağlı).</td></tr>
+      <tr><td>Fotoğraflar / Medya</td><td>Galeriden fotoğraf seçmek ve dışa aktarılan dosyaları kaydetmek.</td></tr>
+      <tr><td>İnternet</td><td>Harita/arazi karolarını indirmek ve abonelik doğrulaması.</td></tr>
+    </table>
+    <p class="muted">İzinleri istediğiniz zaman cihazınızın Ayarlar bölümünden geri alabilirsiniz; bu durumda
+    ilgili özellik çalışmayabilir.</p>
+
+    <h2>5. Veri saklama ve silme</h2>
+    <p>Verileriniz cihazınızda durduğu için, silmek için uygulama içindeki silme işlevlerini kullanabilir veya
+    uygulamayı kaldırabilirsiniz. Abonelik kayıtlarınızın silinmesi için Google Play / RevenueCat üzerinden
+    veya bizimle iletişime geçebilirsiniz.</p>
+
+    <h2>6. Çocukların gizliliği</h2>
+    <p>Location çocuklara yönelik değildir ve bilerek çocuklardan veri toplamaz.</p>
+
+    <h2>7. Güvenlik</h2>
+    <p>Veriler cihazınızda tutulduğundan güvenliği büyük ölçüde cihazınızın güvenliğine bağlıdır. Sunucu
+    tarafında kişisel veri saklamadığımız için sunucu sızıntısı riski yoktur.</p>
+
+    <h2>8. Politika değişiklikleri</h2>
+    <p>Bu politikayı zaman zaman güncelleyebiliriz. Güncel sürüm her zaman bu adreste yayınlanır; önemli
+    değişikliklerde yürürlük tarihini değiştiririz.</p>
+
+    <h2>9. İletişim</h2>
+    <p>Sorularınız için: <a href="mailto:geomaticamap@gmail.com">geomaticamap@gmail.com</a></p>
+  </section>
+
+  <!-- ============ ENGLISH ============ -->
+  <section class="en">
+    <h1>Privacy Policy</h1>
+    <p class="eff">Effective date: June 17, 2026</p>
+
+    <div class="card">
+      <p>Location (the "App", "we") is a mobile application for field surveying, mapping and GIS data
+      management. We respect your privacy. This policy explains what data we process, why, and where your data
+      is kept. <strong>In short: Location is local-first — your project data stays on your device and is not
+      sent to our servers.</strong></p>
+    </div>
+
+    <h2>1. Data we collect and why</h2>
+    <table>
+      <tr><td>Location (GPS)</td><td>Used to show your position on the map, record tracks, stake out points and
+        measure. Location is <strong>processed on your device</strong> and is not transmitted to our servers.</td></tr>
+      <tr><td>Camera / Photos</td><td>To optionally attach a photo to a survey point. Photos are stored on your
+        device.</td></tr>
+      <tr><td>Project data</td><td>Points, lines, areas, tracks and files you import are stored only on your
+        device.</td></tr>
+      <tr><td>Purchase info</td><td>If you buy the Premium subscription, the transaction is handled by Google
+        Play and RevenueCat. Only a pseudonymous identifier is used to verify entitlement.
+        <strong>We do not see or store your card/payment details.</strong></td></tr>
+    </table>
+    <p class="muted">We do not require an account and do not collect personal identifiers such as name, email or
+    phone. We use no advertising and no third-party analytics/tracking SDKs.</p>
+
+    <h2>2. Where your data is kept</h2>
+    <p>Location has no backend server that stores user data. All your project data, settings and photos remain
+    in your device's local storage. Uninstalling the app deletes this data (irrecoverable unless previously
+    exported).</p>
+
+    <h2>3. Third-party services</h2>
+    <p>The app connects to the internet only for:</p>
+    <ul>
+      <li><strong>Map &amp; terrain (elevation) tiles:</strong> downloaded from third-party open map/tile
+        providers (e.g. OpenStreetMap-based sources and open DEM tile providers) to render the map and 3D
+        terrain. As with any online map, your device's IP address and the map area you view are sent to that
+        provider.</li>
+      <li><strong>Google Play Billing &amp; RevenueCat:</strong> for subscription purchase and verification.
+        See <a href="https://www.revenuecat.com/privacy/" target="_blank" rel="noopener">RevenueCat Privacy</a>
+        and <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy</a>.</li>
+    </ul>
+    <p class="muted">These providers are governed by their own privacy policies. The offline map download
+    feature uses the same tile providers.</p>
+
+    <h2>4. App permissions</h2>
+    <table>
+      <tr><td>Location</td><td>GPS position, track recording, measuring and stake-out. Used only while the app
+        is in use.</td></tr>
+      <tr><td>Camera</td><td>To attach a photo to a point (optional).</td></tr>
+      <tr><td>Photos / Media</td><td>To pick photos from the gallery and save exported files.</td></tr>
+      <tr><td>Internet</td><td>To download map/terrain tiles and verify the subscription.</td></tr>
+    </table>
+    <p class="muted">You can revoke permissions anytime in your device Settings; the related feature may then
+    stop working.</p>
+
+    <h2>5. Data retention and deletion</h2>
+    <p>Because your data stays on your device, you can delete it using the in-app delete functions or by
+    uninstalling the app. To delete subscription records, contact us or use Google Play / RevenueCat.</p>
+
+    <h2>6. Children's privacy</h2>
+    <p>Location is not directed to children and does not knowingly collect data from children.</p>
+
+    <h2>7. Security</h2>
+    <p>Since data is kept on your device, its security largely depends on your device's security. As we store no
+    personal data server-side, there is no server-breach risk for your data.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this policy from time to time. The current version is always published at this address; for
+    material changes we update the effective date.</p>
+
+    <h2>9. Contact</h2>
+    <p>Questions: <a href="mailto:geomaticamap@gmail.com">geomaticamap@gmail.com</a></p>
+  </section>
+
+  <footer>© 2026 Location · <a href="terms.html">Kullanım Koşulları / Terms of Use</a></footer>
+</div>
+
+<script>
+  function setLang(l){
+    document.documentElement.lang = l;
+    document.querySelectorAll('.tr').forEach(function(e){ e.style.display = l==='tr'?'block':'none'; });
+    document.querySelectorAll('.en').forEach(function(e){ e.style.display = l==='en'?'block':'none'; });
+    document.getElementById('btn-tr').classList.toggle('on', l==='tr');
+    document.getElementById('btn-en').classList.toggle('on', l==='en');
+  }
+  // First-run language: Turkish device → TR, everyone else → English (global publishing).
+  setLang((navigator.language || 'en').slice(0, 2).toLowerCase() === 'tr' ? 'tr' : 'en');
+</script>
+</body>
+</html>
